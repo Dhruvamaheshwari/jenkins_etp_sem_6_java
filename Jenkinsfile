@@ -72,7 +72,7 @@ pipeline{
             }
         }
     }
-    port{
+    post{
         success{
             echo "pipeline is done"
         }
