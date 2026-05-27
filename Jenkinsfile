@@ -61,7 +61,7 @@ pipeline{
         stage('stop the old container')
         {
             steps{
-                bat "docker rm -f ${CONTAINER_NAME} | ture"
+                bat "docker rm -f ${CONTAINER_NAME} | true"
             }
         }
 
