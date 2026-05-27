@@ -1,0 +1,11 @@
+
+mvn archetype:generate -DgroupId=com.myapp -DartifactId=my-java-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+mvn package
+
+in main => create the HelloController.java file
+pom.xml me change kro
+mvn clean install
+mvn spring-boot:run
+
+
