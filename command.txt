@@ -4,8 +4,11 @@ mvn archetype:generate -DgroupId=com.myapp -DartifactId=my-java-app -DarchetypeA
 mvn package
 
 in main => create the HelloController.java file
+
 pom.xml me change kro
+
 mvn clean install
+
 mvn spring-boot:run
 
 
